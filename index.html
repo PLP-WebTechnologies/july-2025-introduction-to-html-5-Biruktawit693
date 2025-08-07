@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the fundamentals of HTML5 structure, accessibility, and SEO with a well-structured example page.">
+    <meta name="author" content="Biruktawit Tesfaye">
+    <title>HTML5 Semantic Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Semantic Web Page</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about" title="About section">About</a></li>
+                <li><a href="#services" title="Services section">Services</a></li>
+                <li><a href="#contact" title="Contact section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>I am a web development student focused on building accessible and SEO-friendly websites using HTML5.</p>
+        </section>
+
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Services</h2>
+            <article>
+                <h3>Web Development</h3>
+                <p>I create semantic and responsive web pages for better usability and discoverability.</p>
+            </article>
+            <article>
+                <h3>Accessibility Audits</h3>
+                <p>I evaluate websites to ensure they are usable by people with all abilities.</p>
+            </article>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p>Get in touch with me for projects or questions.</p>
+            <address>
+                Email: <a href="mailto:btesfaye970@gmail.com">btesfaye970@gmail.com</a><br>
+                Location: Addis Ababa, Ethiopia
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Biruktawit Tesfaye</p>
+    </footer>
+</body>
+</html>
